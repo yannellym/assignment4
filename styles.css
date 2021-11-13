@@ -1,0 +1,157 @@
+
+body {
+   
+}
+
+.fruitCup1 {
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.fruitCup2 {
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+
+.allCards {
+    width:90%;
+    height:100%;
+    margin-left: 5%;
+    overflow: none;
+}
+
+
+.card{
+    border: 2px red solid;
+    width: 40%;
+    height: 65%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+.imgDiv {
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.insideContentDes {
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    margin-left: 15%;
+    overflow: auto;
+}
+
+/* buttons */
+
+
+button {
+    background-color: orange;
+    width: 50%;
+    height: 45px;
+    border: none;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* modal window */
+
+ .modal_window1 {
+    opacity: 0;
+    background-color: rgba(4, 17, 90, 0.582);
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.modal_window2 {
+    opacity: 0;
+    background-color: rgba(33, 94, 46, 0.582);
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.msgblock {
+    background-color: rgb(241, 241, 233);
+    width: 70%;
+    height: 70%;
+    margin: 15%;
+    overflow: auto;
+}
+
+.modal_window1:target {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+
+.modal_window2:target {
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+h1 {
+    color: white;
+    background-color: rgb(255, 22, 22);
+    font-size: 28px;
+    padding: 05%;
+    margin-top: 0;
+   
+
+}
+
+ul {
+    width: 70%;
+    line-height: 2;
+    margin-left: 10%;
+}
+
+.close {
+    float: right;
+    background: white;
+    padding: 1%;
+    text-decoration: none;
+    color: black;
+}
+
+.mixedcups {
+margin-left: 35%;
+}
+
+.allpeach{ 
+margin-left: 35%;
+}
+
+
+.description {
+    width: 70%;
+    margin-left: 10%;
+    line-height: 2;
+    overflow: auto;
+}
